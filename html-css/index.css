@@ -59,7 +59,6 @@ h5{
 .logo {
     height: 100%;
     width: 25%;
-    background-color: black;
     /* margin-left: 20px; */
 }
 
@@ -84,6 +83,7 @@ ol {
     font-size: .9rem;
     font-weight: bold;
     color: white; 
+    background-color: black;
 }
 
 .top-section {
@@ -100,9 +100,7 @@ ol {
 
 .boxes {
     float: right;
-    position: relative;
     box-sizing: border-box;
-    display: inline-block;
     margin-top:50px;
     margin-left: 50px;
     padding: 50px;
@@ -153,7 +151,6 @@ ol {
     width: 175px;
     height: 115px;
     display: inline-block;
-    position: relative;
     background-color: gray;
     margin-right: 30px;
     margin-left:50px;
