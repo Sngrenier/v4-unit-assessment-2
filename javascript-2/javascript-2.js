@@ -273,7 +273,9 @@ let topic = userInfo.topics[3]
 */
 
 //CODE HERE
+
 let commenterId = userInfo.comments[1][0]
+
 
 ////////////////////PROBLEM 12////////////////////
 /*

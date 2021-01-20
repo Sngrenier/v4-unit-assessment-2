@@ -294,7 +294,10 @@ const bark = () => {
 */
 
 //CODE HERE
-  let fidoSpeak = bark.call(Dog[fido])
+const fidoSpeak = bark.call(this.name, fido)
+
+
+//   let fidoSpeak = bark.call(Dog[fido])
     // fidoSpeak()
   
 ////////////////////PROBLEM 13////////////////////
@@ -311,7 +314,8 @@ let teachTrick = (trick) => {
     Dog.push(teachTrick[this.tricks])
 }
 
-let fidoTrick = teachTrick.bind(Dog)
+
+// let fidoTrick = Dog.bind(this.tricks)
 
 
 /*
@@ -320,7 +324,7 @@ let fidoTrick = teachTrick.bind(Dog)
 */
 
 //CODE HERE
-let teachStay =  teachTrick.bind(Dog)
+let teachStay =  teachTrick.bind(this.name, fido)
 
   
 ////////////////////PROBLEM 14////////////////////
